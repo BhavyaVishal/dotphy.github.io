@@ -69,7 +69,7 @@ function do_experiment() {
   }
   function moveDwn() {
     reset.addEventListener("click", function () {
-      ball.style.top = "400px";
+      ball.style.top = "500px";
 
       clearInterval(goDwn);
     });
