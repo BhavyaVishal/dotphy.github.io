@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Kinematics | Intelli Learn</title>
+    <title>Kinematics | dotPhy</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./main.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="ball">
-      
-    </div>
+    <h1> Kinematics.Phy</h1>
+    <div id="ball"></div>
+
     <div id="inputs">
       <div id="velocity">
-        <p>Velocity :</p>
+        <p><b>Velocity : </b></p>
         <input type="text" placeholder="1" id="velocity-inp" />
-        <p>m/s</p>
+        <p><b>m/s </b></p>
       </div>
-
       <div id="acc">
-        <p>
-          Acceleration
-        </p>
+        <p><b>Acceleration:</b></p>
         <input type="text" placeholder="-9.8" id="acc-inp" />
-        <p>ms<sup>2</sup></p>
+        <p><b>m/s </b></p>
       </div>
+      <div id="scale">
+       <b> Scale 1m </b>: <input type="text" placeholder="10" id="scale-inp" /> <b>px </b>
+        </div>
+
+      <button id="action">Experiment</button>
+      <button id="reset">Reset</button>
     </div>
-    <button id="action">Experiment</button>
-    <button id="reset" > Reset </button>
-    <button id="stop" > Stop </button>
+    
     <div id="param-list">
       <div>
       <p>Acceleration : </p>
@@ -45,13 +49,36 @@
       <p id= "distance-param"> 0</p>
       </div>
        
-      <p>Time</p>
+  
        </div>
+    
+
+  
     </div>
 
-    <div id="scale">
-      Scale 1m : <input type="text" placeholder="10" id="scale-inp" />px
+    <!--      
+    <div id="ball">
     </div>
+     
+      <divflwenoiidjfoiejdowiedjweoifjeoifj34oi3rjf43oi343oirj3oijroiiithohsfugouhlghsfgliwuhglosgywlutht;oouhew9th9thw9hsughohg4htoht4h id="velocity">
+        <p>Velocity :</p>
+        <input type="text" placeholder="1" id="velocity-inp" />
+        <p>m/s</p>
+      </div>
+
+      <div id="acc">
+        <p>
+          Acceleration
+        </p>
+        <input type="text" placeholder="-9.8" id="acc-inp" />
+        <p>ms<sup>2</sup></p>
+      </div>
+    </div>
+    <button id="action">Experiment</button>
+    <button id="reset" > Reset </button>
+     
+    </div>
+  -->
   </body>
   <script src="animate_ball.js"></script>
 </html>

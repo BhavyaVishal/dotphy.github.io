@@ -1,66 +1,79 @@
-/* --------------INputs -----------*/
-
-#velocity {
-  position: absolute;
-  top: 500px;
-}
-#velocity > p,
-#velocity input {
-  display: inline;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-#acc {
-  position: absolute;
-  top: 550px;
+body {
+  font-family: "Poppins";
+  width: 100vw;
 }
-#acc > p,
-#acc input {
-  display: inline;
-}
-/*--------------------------------------*/
-#action {
-  position: absolute;
-  top: 600px;
-  left: 100px;
-}
-#reset {
-  position: absolute;
-  top: 600px;
-  left: 200px;
+h1 {
+  background: linear-gradient(rgb(172, 91, 44), rgb(172, 44, 44));
+  color: white;
+  padding: 15px;
+  height: 80px;
 }
 #ball {
+  position: absolute;
   background: linear-gradient(rgb(21, 206, 175), rgb(21, 154, 206));
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  position: absolute;
-  top: 400px;
+  top: 500px;
   left: 50px;
   z-index: 999;
 }
 
-/* ----------Scale -----------------*/
-#scale {
+#inputs {
   position: absolute;
-  right: 2vw;
-  top: 10vh;
-  border-color: #000000;
-  border-width: 1px;
-  padding: 3px;
-  border-style: solid;
+  top: 600px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 0px 20px 0px;
+}
+#inputs div {
+  margin: 10px;
+}
+#inputs input {
+  padding-left: 10px;
+  border: 2px black solid;
+  border-radius: 6px;
+}
+#inputs p {
+  display: inline;
+  width: 50px;
 }
 
-#scale input {
-  width: 20px;
+#inputs button {
+  border-radius: 5px;
+  border: 0px black solid;
+  background: linear-gradient(
+    rgba(0, 47, 255, 0.623),
+    rgba(0, 183, 255, 0.575)
+  );
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+}
+#reset {
+  display: inline;
 }
 
-/* -----------Param - List ---------------*/
+#velocity-inp {
+  margin-left: 30px;
+}
+#scale-inp {
+  margin-left: 30px;
+}
+
 #param-list {
-  position: absolute;
-  top: 20vh;
-  right: 10vw;
-  background: linear-gradient(rgb(16, 172, 138), rgb(16, 84, 172));
-  padding: 30px;
-  border-radius: 10%;
-  font-family: "Raleway";
+  width: 50vw;
+  margin-left: 50vw;
+  margin-right: 0px;
+}
+#param-list p {
+  display: inline;
 }
