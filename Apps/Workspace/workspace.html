@@ -15,32 +15,32 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <title>.Phy - Your Physics Lab</title>
    
     </div>
   </head>  
   <body>
-    <a class="kin" href="./Kinematics/kinematics.html"> Kinematics.Physd</a>
-    <a  href="#" onclick="underconst()" > Astro.Phy</a>
-    <a   href="#">  Quantum.Phy</a>
+    <header> 
+      <img src="../../Icons/DotPhy.svg"> 
+      <h1>WorkSpace - Your Physics Lab </h1>
+    </header>
+    <div class="container-links">
+    <a class="kinematics" href="./Kinematics/kinematics.html"> Kinematics.Phy</a>
+    <a  href="#" onclick=ucLink() > Astro.Phy</a>
+    <a   href="#"  onclick=ucLink() >  Quantum.Phy</a>
 
  
+    </div>
 
       
     <script>
-      function underconst(){
-        alert("Sorry ! Work Under Construction ")
-
+       function ucLink(){
+        alert("Sorry ! Under Construction 🚧");
       }
+   
     </script>
    
   </body>
