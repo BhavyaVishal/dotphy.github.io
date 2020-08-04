@@ -1,3 +1,36 @@
+ 
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@dotphy
+dotphy /
+dotphy.github.io
+
+0
+2
+
+    1
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+dotphy.github.io/Apps/Workspace/style.css
+@Aaditay
+Aaditay UI Update WorkSpace
+Latest commit 3aed693 22 days ago
+History
+1 contributor
+62 lines (57 sloc) 1.07 KB
 * {
   margin: 0;
   padding: 0;
@@ -8,25 +41,70 @@ body {
   font-family: "Poppins";
 }
 
-:root {
-  --primary-color: #0986c9;
-}
-.container {
-  display: flex;
+header {
+  height: 15vh;
   width: 100vw;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 2px;
+  font-weight: bolder;
   color: white;
-  flex-direction: row;
+  background: rgba(17, 155, 132, 0.747);
+  box-shadow: 0px 0px 5px black;
+}
+header img {
+  margin-left: 40px;
+  width: 150px;
+  padding: 10px;
+  height: 80px;
+  border-radius: 10px;
+  border-color: rgb(9, 181, 211);
+  background-color: rgba(223, 208, 208, 0.74);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px rgb(9, 211, 177);
+}
+header h1 {
+  margin: auto;
+}
+.container-links {
+  position: absolute;
+  top: 20vh;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 100vw;
-  background-color: #0986c9;
+a {
+  padding: 15px;
+  color: rgb(9, 211, 177);
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  border: 3px rgb(9, 211, 177) solid;
 }
-.header img {
-  height: 40px;
-  flex-basis: 10%;
+
+a:hover {
+  color: white;
+  background-color: rgb(9, 211, 177);
+  box-shadow: 0px 0px 13px rgb(59, 58, 58);
+  transition: 0.2s;
 }
+
+    © 2020 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
