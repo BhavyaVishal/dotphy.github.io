@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+:root {
+  --primary-color: #0986c9;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  color: white;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100vw;
+  background-color: #0986c9;
+}
+.header img {
+  height: 40px;
+  flex-basis: 10%;
+}
