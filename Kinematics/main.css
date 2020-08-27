@@ -1,0 +1,66 @@
+/* --------------INputs -----------*/
+
+#velocity {
+  position: absolute;
+  top: 500px;
+}
+#velocity > p,
+#velocity input {
+  display: inline;
+}
+
+#acc {
+  position: absolute;
+  top: 550px;
+}
+#acc > p,
+#acc input {
+  display: inline;
+}
+/*--------------------------------------*/
+#action {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+#reset {
+  position: absolute;
+  top: 600px;
+  left: 200px;
+}
+#ball {
+  background: linear-gradient(rgb(21, 206, 175), rgb(21, 154, 206));
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  z-index: 999;
+}
+
+/* ----------Scale -----------------*/
+#scale {
+  position: absolute;
+  right: 2vw;
+  top: 10vh;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 3px;
+  border-style: solid;
+}
+
+#scale input {
+  width: 20px;
+}
+
+/* -----------Param - List ---------------*/
+#param-list {
+  position: absolute;
+  top: 20vh;
+  right: 10vw;
+  background: linear-gradient(rgb(16, 172, 138), rgb(16, 84, 172));
+  padding: 30px;
+  border-radius: 10%;
+  font-family: "Raleway";
+}

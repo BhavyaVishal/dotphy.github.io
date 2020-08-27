@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kinematics | Intelli Learn</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="ball">
+      
+    </div>
+    <div id="inputs">
+      <div id="velocity">
+        <p>Velocity :</p>
+        <input type="text" placeholder="1" id="velocity-inp" />
+        <p>m/s</p>
+      </div>
+
+      <div id="acc">
+        <p>
+          Acceleration
+        </p>
+        <input type="text" placeholder="-9.8" id="acc-inp" />
+        <p>ms<sup>2</sup></p>
+      </div>
+    </div>
+    <button id="action">Experiment</button>
+    <button id="reset" > Reset </button>
+    <button id="stop" > Stop </button>
+    <div id="param-list">
+      <div>
+      <p>Acceleration : </p>
+      <p id="acc-param"> 0 </p>
+      </div>
+       
+     <div>
+      <p>Velocity : </p>
+      <p id="velocity-param"> 0 </p>
+     </div>
+      <div>
+      <p>Distance : </p>
+      <p id= "distance-param"> 0</p>
+      </div>
+       
+      <p>Time</p>
+       </div>
+    </div>
+
+    <div id="scale">
+      Scale 1m : <input type="text" placeholder="10" id="scale-inp" />px
+    </div>
+  </body>
+  <script src="animate_ball.js"></script>
+</html>
